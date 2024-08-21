@@ -16,3 +16,6 @@ int main()
  if(a==e)
   std::cout<<"the ans is same";
 }
+/*THE ANS IS SAME BECAUSE THE PROGRAM DO THE OPERATIONS BETWEEN THE ASCII VALUES OF VOWELS.
+AS EX vowel2-vowel1=ascii value of e-ascii value of a=101-97=4.
+    for capvowel2-capvowel1=ascii value of E-ascii value of A=69-65=4.*/
