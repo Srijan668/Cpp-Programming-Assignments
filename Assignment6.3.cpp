@@ -30,4 +30,4 @@ Here at first when obj is declared,default constructor is called
 then for foo(obj) copy constructor is called
 then At the time of returning foo, move constructor is called
 then foo(obj) is assigned to obj,i.e. here copy assignment works
-at last at the end of main(),copy constructor and move constructor destructor is called;
+at last at the end of main(),copy constructor and move constructor destructor is called;*/
