@@ -74,8 +74,6 @@ void push_back(int val)
      else
        p1[i]=val;    
    }
- 
-   //delete[] p;myvector::~myvector() ()
 
    p = p1;
 }
