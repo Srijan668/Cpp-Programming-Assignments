@@ -24,7 +24,7 @@ Y y=x;
 int i=2;
 
 int main() {
-  cout<<i + 10<< "\n"<<y + X(10)<< y + X(10) * y<<endl;
-  cout<<x + y + i<<"\n" <<x * x + i<< f(7)<<endl;
-  cout<<f(X(y))<<"\n"<< y + y<<"\n"<< 106 + y<<endl;
+  cout<<i + 10<< "\n"<<y + X(10)<< y + X(10) * y<<endl;//int to X type conversion is happening 
+  cout<<x + y + i<<"\n" <<x * x + i<< f(7)<<endl;// X to Y type conversion is happening 
+  cout<<f(X(y))<<"\n"<< y + y<<"\n"<< 106 + y<<endl;// int type is stored in Y.& Y type to X type conversion is happening.
 }
